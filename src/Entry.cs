@@ -113,8 +113,9 @@ namespace ProbablyStolenHellMode
         private static void Postfix()
         {
             var storeUI = StoreUIManager.Instance;
-            if (Rations.Active && storeUI != null && storeUI.primaryCanvas != null)
-                SurvivalHud.Attach(storeUI.primaryCanvas.transform);
+            // Escape treats active children of the primary paper canvas as closable windows.
+            if (Rations.Active && storeUI != null && storeUI.secondaryCanvas != null)
+                SurvivalHud.Attach(storeUI.secondaryCanvas.transform);
         }
     }
 }

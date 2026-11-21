@@ -155,12 +155,9 @@ namespace ProbablyStolenHellMode
             if (visibility == null) return;
             bool visible = Rations.Active && GameOverUIManager.Instance?.IsShowing != true;
             visibility.alpha = visible ? 1 : 0;
-            visibility.blocksRaycasts = visible;
-            if (!visible)
-            {
-                FinishDrag();
-                return;
-            }
+            visibility.blocksRaycasts = visible && StoreUIManager.Instance?.escapeUIManager?.menuPanel?.activeSelf != true;
+            if (!visibility.blocksRaycasts) FinishDrag();
+            if (!visible) return;
             if (viewportSize != viewport.rect.size) ApplyPosition();
             int food = Rations.Food;
             int water = Rations.Water;
