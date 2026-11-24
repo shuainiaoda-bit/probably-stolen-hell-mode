@@ -7,9 +7,9 @@ namespace ProbablyStolenHellMode
 
     internal static class Rations
     {
-        internal const int FoodCapacity = 2000;
-        internal const int WaterCapacity = 1000;
-        internal const int DailyFood = 300;
+        internal const int FoodCapacity = 2500;
+        internal const int WaterCapacity = 1500;
+        internal const int DailyFood = 350;
         internal const int DailyWater = 300;
         private const string FoodKey = "food_kcal";
         private const string WaterKey = "water_ml";

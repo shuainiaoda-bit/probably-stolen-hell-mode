@@ -3,7 +3,7 @@
   <ID>probably_stolen_hell_mode</ID>
   <Name>这就是地狱吗？ / Is This Hell?</Name>
   <Author>shuainiaoda-bit</Author>
-  <ModVersion>0.2.6</ModVersion>
+  <ModVersion>0.2.7</ModVersion>
   <Description>新增七项适用于所有难度的开局特质，以及带有生存储备的地狱难度。</Description>
   <GameVersions><Version>0.46D</Version><Version>1.0.0.14</Version><Version>1.0.0.15</Version><Version>1.0.0.16</Version></GameVersions>
   <Prerequisites />

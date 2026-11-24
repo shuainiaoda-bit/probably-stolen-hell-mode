@@ -6,7 +6,7 @@
 
 ### 手动安装
 
-1. 在 [GitHub Releases](https://github.com/shuainiaoda-bit/probably-stolen-hell-mode/releases/latest) 下载 `ProbablyStolenHellMode-0.2.5.zip`。
+1. 在 [GitHub Releases](https://github.com/shuainiaoda-bit/probably-stolen-hell-mode/releases/latest) 下载 `ProbablyStolenHellMode-0.2.7.zip`。
 2. 解压后将 `ProbablyStolenHellMode` 文件夹放入游戏的 `Mods`，确认 `manifest.xml` 位于该文件夹内。
 3. 在游戏主菜单的 Mod 管理中启用，重启游戏并开始新存档。
 
@@ -15,7 +15,7 @@
 要玩生存挑战，在难度页选中「赤字连连」后面的「这就是地狱吗？」。
 
 - 基础房租 250 信用点。原版供货商加价 150%，其余难度规则沿用赤字连连。
-- 开局有 2,000 kcal 食物储备和 1,000 mL 饮水储备。每次睡觉消耗 300 kcal 和 300 mL。食物归零会饿死，饮水归零会渴死，两项同时归零以渴死结算。
+- 食物上限为 2,500 kcal，饮水上限为 1,500 mL。新开局的两项储备均为满值，旧存档保留升级前的储备量。每次睡觉消耗 350 kcal 食物和 300 mL 饮水。食物归零会饿死，饮水归零会渴死，两项同时归零以渴死结算。
 - 按住食物和饮水条可一起拖动，位置随存档保留。
 - 右键自己拥有的物品，选择「进食」或「饮水」。饮水要求基础水或以上。瓶装水只扣实际补充的量。密封水配给包需要有空间喝下整包，也可以先倒进容器。
 - 每周四开店后，下层区补给商会上门。食品包括营养果、碳酸代乳、代糖果汁、合成肉和速食拉面。小号密封水和标准密封水分别以 12 和 24 信用点为基础标价。

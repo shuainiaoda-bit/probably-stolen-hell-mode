@@ -14,7 +14,7 @@ namespace ProbablyStolenHellMode
         {
             Text("基础房租为250", "Base rent is 250"),
             Text("供货商加价150%", "Supplier markup is 150%"),
-            Text("每晚消耗300 kcal、300 mL", "Use 300 kcal and 300 mL each night"),
+            Text($"每晚消耗{Rations.DailyFood} kcal、{Rations.DailyWater} mL", $"Use {Rations.DailyFood} kcal and {Rations.DailyWater} mL each night"),
             Text("右键进食或饮用基础水及以上", "Right-click to eat or drink Basewater or better")
         };
     }
